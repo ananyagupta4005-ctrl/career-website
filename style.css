@@ -48,4 +48,31 @@ li {
   padding: 10px;
   border-radius: 5px;
 }
+/* NAVBAR */
+.navbar {
+  background: #0d47a1;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* CAREER CARDS */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 
