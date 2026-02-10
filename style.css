@@ -1,30 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Career Test</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 40px;
+}
 
-<body class="test">
+/* HOME PAGE */
+.home {
+  background-color: #e3f2fd;
+}
 
-  <h2>Answer Honestly 👇</h2>
+/* TEST PAGE */
+.test {
+  background-color: #fff3e0;
+}
 
-  <form action="result.html">
+/* RESULT PAGE */
+.result {
+  background-color: #e8f5e9;
+}
 
-    <p>1. Tumhe kya zyada pasand hai?</p>
-    <input type="radio" name="interest" required> Technology<br>
-    <input type="radio" name="interest"> Creativity<br>
-    <input type="radio" name="interest"> Teaching / Talking<br>
-    <input type="radio" name="interest"> Helping People<br><br>
+h1, h2, h3 {
+  color: #2c3e50;
+}
 
-    <p>2. Tum kis type ka kaam prefer karoge?</p>
-    <input type="radio" name="work" required> Computer ke saath<br>
-    <input type="radio" name="work"> Logon ke saath<br>
-    <input type="radio" name="work"> Creative kaam<br><br>
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
 
-    <button type="submit">See My Career Options</button>
+button:hover {
+  background-color: #0d47a1;
+}
 
-  </form>
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-</body>
-</html>
+li {
+  background: white;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
