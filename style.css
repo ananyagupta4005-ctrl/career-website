@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="test">
+
+  <h2>Answer Honestly 👇</h2>
+
+  <form action="result.html">
+
+    <p>1. Tumhe kya zyada pasand hai?</p>
+    <input type="radio" name="interest" required> Technology<br>
+    <input type="radio" name="interest"> Creativity<br>
+    <input type="radio" name="interest"> Teaching / Talking<br>
+    <input type="radio" name="interest"> Helping People<br><br>
+
+    <p>2. Tum kis type ka kaam prefer karoge?</p>
+    <input type="radio" name="work" required> Computer ke saath<br>
+    <input type="radio" name="work"> Logon ke saath<br>
+    <input type="radio" name="work"> Creative kaam<br><br>
+
+    <button type="submit">See My Career Options</button>
+
+  </form>
+
+</body>
+</html>
